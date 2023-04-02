@@ -1,6 +1,6 @@
 # Due by Class03
 
-Complete Coursera Learning How To Learn and submit screenshot of completion page.
+## Complete Coursera Learning How To Learn and submit screenshot of completion page.
 
 Watch How to Study for Exams: Evidence-Based Revision Tips by Ali Abdaal.
 
