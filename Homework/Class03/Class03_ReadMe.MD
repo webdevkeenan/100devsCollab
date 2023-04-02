@@ -1,4 +1,4 @@
-#Due by Class#05
+#Due by Class05
 
 Finish Khan Academy and Tech Crunch from class 3, HTML only
 
