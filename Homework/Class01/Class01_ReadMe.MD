@@ -12,4 +12,4 @@ https://www.youtube.com/watch?v=Z-zNHHpXoMM
 
 Submit Link: 
 
-https://docs.google.com/forms/d/e/1FAIpQLScFLlI8YxOuqhQDtLdB_2KbMBTFx9kJmy9D42zbOkuebhFZxw/viewform
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScFLlI8YxOuqhQDtLdB_2KbMBTFx9kJmy9D42zbOkuebhFZxw/viewform" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLScFLlI8YxOuqhQDtLdB_2KbMBTFx9kJmy9D42zbOkuebhFZxw/viewform</a>
