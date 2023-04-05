@@ -2,16 +2,16 @@
 
 ## Complete the Three Layouts from class 5, HTML and CSS. 
 
-# Layout 1
+## Layout 1
 
 ![layout1](https://user-images.githubusercontent.com/42125735/230149205-847da954-70ba-491c-b23c-ee85b69e5db2.png)
 
 
-# Layout 2
+## Layout 2
 
 ![layout2](https://user-images.githubusercontent.com/42125735/230149231-5449b79a-d831-4edf-b123-97c3ee50fdd2.png)
 
-# Layout 3
+## Layout 3
 
 ![layout3](https://user-images.githubusercontent.com/42125735/230149277-1ceada1e-eb12-4a38-94d3-927329dea7e6.png)
 
