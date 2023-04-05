@@ -9,7 +9,7 @@
 
 # Layout 2!
 
-[layout2](https://user-images.githubusercontent.com/42125735/230149231-5449b79a-d831-4edf-b123-97c3ee50fdd2.png)
+![layout2](https://user-images.githubusercontent.com/42125735/230149231-5449b79a-d831-4edf-b123-97c3ee50fdd2.png)
 
 # Layout 3
 
