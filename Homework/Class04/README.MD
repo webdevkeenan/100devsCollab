@@ -4,7 +4,7 @@
 
 https://communitytaught.org/img/resources/simple-site-lab.png
 
-##Do five minute typing test
+## Do five minute typing test
 
 https://www.typingtest.com/
 
