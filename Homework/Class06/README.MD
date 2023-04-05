@@ -2,7 +2,7 @@
 
 ## Make 15 minutes of pain responsive (use floats and 3 media queries)
 
-# Read Shay Howe: Advanced (All 10 Chapters)
+## Read Shay Howe: Advanced (All 10 Chapters)
 
 https://learn.shayhowe.com/advanced-html-css/
 
