@@ -4,7 +4,7 @@
 
 https://communitytaught.org/img/resources/simple-site-lab.png
 
-![logo](https://user-images.githubusercontent.com/42125735/230151037-ce9ef9ac-1a06-4460-9017-cee66d9a18b5.png) {height: 300px, width: 300px;}
+![logo](<img src="https://user-images.githubusercontent.com/42125735/230151037-ce9ef9ac-1a06-4460-9017-cee66d9a18b5.png" height="300px" width="300px"/>) 
 
 ## Do five minute typing test
 
