@@ -17,3 +17,5 @@ https://www.keybr.com/
 ##  HW Submission Link:
 
 https://docs.google.com/forms/d/e/1FAIpQLSeWEisam4CfpvyIteGM8URFErfP69ZC3UcM2UbMLFBbsZYHDA/viewform
+
+![simple-site-lab](https://user-images.githubusercontent.com/42125735/230153901-7431e3d8-a663-420c-bda2-6d00e4c879d6.png)
