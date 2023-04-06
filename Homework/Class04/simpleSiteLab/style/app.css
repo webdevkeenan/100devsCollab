@@ -73,6 +73,14 @@ line color: 7f7f7f
     } 
 } 
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1800px) {
+    img {
+        width: 30%;
+        height: 40%;
+    }
 
+    .box{
+        width: 80vh;
+        margin-top: 5%;
+    }
 }
