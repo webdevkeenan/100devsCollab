@@ -7,7 +7,7 @@ body{
 .box{
     border: 4px solid #00eb40;
     margin: 0 auto;
-    max-width: 70vh;
+    max-width: 80vh;
     padding: 40px;
 }
 
@@ -16,13 +16,14 @@ body{
 }
 
 img{
-    width: 30vh;
-    height: 40vh;
+    width: 30%;
+    height: 40%;
     float: right;
 }
 
 .p1, .p2{
     text-align: left;
+    font-size: 1em;
 }
 
 h1, span{
@@ -59,14 +60,15 @@ border color: #00eb40
 line color: 7f7f7f
 ****/
 
- @media screen and (max-width: 500px) {
+
+ @media screen and (max-width: 800px) {
     img {
-        max-width: 100px;
-        max-height: 130px;
+        max-width: 200px;
+        max-height: 430px;
         
     }
 
     .p1, .p2{
-        font-size: 10px;
-    }
+        font-size: .8em;
+    } 
 } 
