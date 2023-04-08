@@ -1,0 +1,52 @@
+/*Box Model Hack */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden; 
+    line-height 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*** Layout 3 ****/
+
+header {
+    height: 200px;
+    background-color: gold;
+}
+
+.small {
+    width: 20%;
+    height: 400px;
+    background-color: red;
+    float: left;
+    border: 1px solid black;
+}
+
+.big {
+    width: 40%;
+    height: 400px; 
+    background-color: orange;
+    float: left;
+}
+
+footer {
+    background-color: grey;
+    height: 200px;
+    border: 1px solid black;
+}
+
+header, footer {
+    clear: both;
+}
