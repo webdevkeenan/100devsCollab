@@ -18,6 +18,18 @@
     clear: both;
 }
 
+/***** Layout ******/
+
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: white;
+    height: 20vh;
+}
+
+/* 
 header {
     border-bottom: 1px solid black;
     height: 200px;
@@ -51,4 +63,4 @@ footer {
 
 header, footer {
     clear: both;
-}
+} */
