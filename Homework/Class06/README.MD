@@ -1,4 +1,4 @@
-# Due by Class08
+# Class08
 
 ## Make 15 minutes of pain responsive (use floats and 3 media queries)
 

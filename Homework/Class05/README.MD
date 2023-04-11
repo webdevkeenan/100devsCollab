@@ -1,4 +1,4 @@
-# Due by Class06
+# Class06
 
 ## Complete the Three Layouts from class 5, HTML and CSS. 
 

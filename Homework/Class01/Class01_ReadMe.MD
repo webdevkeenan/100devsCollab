@@ -1,4 +1,4 @@
-# Due by Class03
+# Class03
 
 ## Complete Coursera Learning How To Learn and submit screenshot of completion page.
 
