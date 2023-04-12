@@ -1,4 +1,4 @@
-# Class06
+# Due By Class06
 
 ## Finish Simple Site Lab (Use HTML and CSS)
 
