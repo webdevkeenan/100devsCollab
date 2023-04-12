@@ -15,3 +15,7 @@ https://communitytaught.org/img/resources/source.png
 https://communitytaught.org/img/resources/pushwork-class8.png
 
 ### Add media queries to other layouts
+
+## HW Submission Link: 
+
+https://docs.google.com/forms/d/e/1FAIpQLSdSxi0K6RNApPyDp3CUP0CVjcM8v89bw_wG9gCyFZiZfEvaJw/viewform
