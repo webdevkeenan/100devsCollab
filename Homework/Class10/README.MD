@@ -1,4 +1,4 @@
-# Class 10
+# Due By Class 10
 
 ## Do the Restaurant &amp; Hair Salon layouts 
 
@@ -24,6 +24,8 @@ https://www.youtube.com/watch?v=JJSoEo8JSnc&feature=youtu.be
 
 https://mastery.games/flexboxzombies/
 
-### HW Submission Link:
+## HW Submission Link:
+
+### All 7 layouts! BBC, Tech Crunch, Khan Academy, Source, Level Ground, Cuisine, and Hair Salon. Pushwork is optional!!!
 
 https://docs.google.com/forms/d/e/1FAIpQLSdSxi0K6RNApPyDp3CUP0CVjcM8v89bw_wG9gCyFZiZfEvaJw/viewform
