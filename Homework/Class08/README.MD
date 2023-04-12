@@ -18,7 +18,7 @@ https://communitytaught.org/img/resources/pushwork-class8.png
 
 ## HW Submission Link: 
 
-### Ignore until you finish all 7 layouts. (BBC, Khan Academy, Tech Crunch, Level Ground, Source, Cuisine, and Hair Salon)
+### **Ignore until you finish all 7 layouts. (BBC, Khan Academy, Tech Crunch, Level Ground, Source, Cuisine, and Hair Salon)
 #### The Push work layout is optional!
 
 https://docs.google.com/forms/d/e/1FAIpQLSdSxi0K6RNApPyDp3CUP0CVjcM8v89bw_wG9gCyFZiZfEvaJw/viewform
