@@ -1,6 +1,8 @@
 # 100devs Study Group Collaboration Project.
 
-## This repository follows the 2nd cohort.
+## This repository follows the 2nd cohort. 
+
+### Note - It is not officially affialiated with 100Devs other than being a bunch of cool people that showed up to the party late and want to learn together. 
 
 ### Check out the README.MD file in each Homework/Class folder for the video links, class materials, and homework submission link.
 
