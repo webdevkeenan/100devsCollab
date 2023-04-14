@@ -55,6 +55,10 @@ a{
  color: #00eb40;
 }
 
+a:hover {
+    color: blue;
+}
+
 /***
 border color: #00eb40
 line color: 7f7f7f
