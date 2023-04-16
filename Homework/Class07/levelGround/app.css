@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*** Layout ****/
+
+nav, header, section, footer {
+    border: 2px solid black;
+}
+
+nav {
+    height: 15vh;
+    background-color: #66718a;
+}
+header {
+    height: 100vh;
+    background-color: #66718a;
+}
+
+.why, .schedule {
+    height: 100vh;
+}
+
+.volunteer {
+    height: 60vh;
+}
+
+footer {
+    height: 40vh;
+    background-color: #161c2a;
+}
+
+/**** Flex Box ****/
+
+nav {
+    opacity: 0.90;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    list-style-type: none;
+}
+
+.logoWrapper {
+    justify-content: space-between;
+    width: 25%;
+}
+
+/*** Media Query ***/
+
+@media screen and (max-width: 576px) {
+    nav {
+        font-size: .5em;
+        height: 25%;
+    }
+
+    ul {
+        display: flex;
+        width: 20%;
+    }
+}
