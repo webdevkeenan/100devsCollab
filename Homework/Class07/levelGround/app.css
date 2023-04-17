@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
-/*** Layout ****/
+/*** Erase Me When Done ****/
 
 nav, header, section, footer {
     border: 2px solid black;
 }
+
+
+
+/*** Layout ****/
+
+
 
 nav {
     height: 15vh;
@@ -24,7 +30,7 @@ header {
 }
 
 .volunteer {
-    height: 60vh;
+    height: 100vh;
 }
 
 footer {
@@ -35,7 +41,7 @@ footer {
 /**** Flex Box ****/
 
 nav {
-    opacity: 0.90;
+    opacity: 0.80;
     position: fixed;
     width: 100%;
     display: flex;
@@ -44,28 +50,17 @@ nav {
     color: white;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    width: 15%;
-    list-style-type: none;
+
+.classes {
+    flex-shrink: 3;
 }
 
-.logoWrapper {
-    justify-content: space-between;
-    width: 25%;
+/*** Content ***/
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /*** Media Query ***/
 
-@media screen and (max-width: 576px) {
-    nav {
-        font-size: .5em;
-        height: 25%;
-    }
-
-    ul {
-        display: flex;
-        width: 20%;
-    }
-}
