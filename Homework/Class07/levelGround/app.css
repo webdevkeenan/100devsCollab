@@ -58,16 +58,16 @@ nav {
     color: white;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    width: 15%;
-    list-style-type: none;
+
+.classes {
+    flex-shrink: 3;
 }
 
-.logoWrapper {
-    justify-content: space-between;
-    width: 25%;
+/*** Content ***/
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .why {

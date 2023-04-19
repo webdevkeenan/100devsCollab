@@ -1,6 +1,6 @@
 # Link to 100Devs Simple-Site deployment:
 
-https://keenansimplesite100devs.netlify.app/
+https://styleshift.github.io/simplesite/
 
 ## Original HW (2022) Link:
 
