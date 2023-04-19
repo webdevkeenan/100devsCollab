@@ -78,9 +78,6 @@ a {
     text-align: center;
 }
 
-
-/** Content **/
-
 h1 {
     font-size: 3vw;
 }
@@ -117,6 +114,13 @@ p {
     width: 150px;
 }
 
+.donateButton {
+    border-radius: 8%;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+    color:#66718a
+}
+
 .box {
     background-color: #647689;
     height: 30%;
@@ -136,6 +140,59 @@ p {
     text-align: center;
     font-size: 1vw;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.headerH1 {
+    text-align: center;
+    font-size: 4vw;
+    margin: 20px;
+}
+
+.headerP {
+    width: 70%;
+    font-size: 2vw;
+    text-align: center;
+    margin: 20px;
+}
+
+i {
+    width: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+a.Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 1.5vw;
+}
+
+nav{
+    display: flex;
+    align-items: space-between;
+}
+
+.logoWrapper {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+span {
+    font-size: 3vw;
+}
 /*** Media Query ***/
 
 /** Mobile Layout ***/
@@ -149,4 +206,15 @@ p {
     width: 70%;
     font-size: large;
   }
+
+  nav{
+    align-items: space-around;
+  }
+
+
+a{
+    padding-right: 10px;
+    font-size: 12px;
+}
+
 }
