@@ -53,7 +53,7 @@ nav {
     position: fixed;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
 }
@@ -159,12 +159,14 @@ header {
     width: 70%;
     font-size: 2vw;
     text-align: center;
-    margin: 20px;
+    margin: 40px;
+    margin-bottom: 100px;
 }
 
-i {
-    width: 20px;
+a {
+    font-size: 22px;
 }
+
 
 a:hover {
     color: blue;
@@ -180,18 +182,37 @@ a.Wrapper{
 
 nav{
     display: flex;
-    align-items: space-between;
 }
 
 .logoWrapper {
-    width: 200px;
+    width: 20%;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: space-between;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 span {
-    font-size: 3vw;
+    font-size: 1.5vw;
+    margin: 40px;
+    align-self: space-between;
+}
+
+.bbI{
+    font-size: 1vw;
+    color: black;
+}
+
+img { 
+    height: 100px;
+    width: 100px;
+}
+
+.video {
+    margin: 500px;
+    padding: 500px;
+    height: 200px;
+    width: 400px;
 }
 /*** Media Query ***/
 
@@ -215,6 +236,29 @@ span {
 a{
     padding-right: 10px;
     font-size: 12px;
+}
+
+.wrapperGym, .wrapperVisit {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+.box {
+    width: 70%;
+    height: 20%;
+}
+
+.smallText {
+    font-size: 3vw;
+}
+
+.headerH1, .headerP {
+    font-size: 20px;
+} 
+
+.bbI {
+    font-size: 3vw;
 }
 
 }
