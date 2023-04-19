@@ -221,6 +221,11 @@ nav{
     align-items: center;
 }
 
+.blankButton:hover, .colorButton:hover {
+    background-color: #647689;
+    color: white;
+}
+
 span {
     font-size: 1.5vw;
     margin: 40px;
