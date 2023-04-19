@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
-/*** Layout ****/
+/*** Erase Me Later ****/
 
-nav, header, section, footer {
+nav, header, section, .wrapperGym, .wrapperVisit, footer {
     border: 2px solid black;
 }
+
+
+/*** Layout ****/
+
 
 nav {
     height: 15vh;
@@ -23,8 +27,18 @@ header {
     height: 100vh;
 }
 
+.schedule {
+    background-color: #dbdfe2;
+}
+
+.wrapperGym, .wrapperVisit {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
 .volunteer {
-    height: 60vh;
+    height: 70vh;
 }
 
 footer {
@@ -35,7 +49,7 @@ footer {
 /**** Flex Box ****/
 
 nav {
-    opacity: 0.90;
+    opacity: 0.80;
     position: fixed;
     width: 100%;
     display: flex;
@@ -56,16 +70,81 @@ ul {
     width: 25%;
 }
 
+.why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/** Content **/
+
+h1 {
+    font-size: 3vw;
+}
+
+p {
+    font-size:  2vw;
+    margin: 20px;
+    width: 55%;
+}
+
+.volunteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.blankButton {
+    border-radius: 0%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black
+}
+
+.colorButton {
+    border-radius: 0%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: #dbdfe2;
+    border: 2px solid black
+}
+
+.box {
+    background-color: #647689;
+    height: 20%;
+    width: 40%
+}
+
+.smallText {
+    font-size: 1.5vw;
+    margin:20px;
+}
+
+.wrapperGym, .wrapperVisit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    font-size: 1vw;
+}
 /*** Media Query ***/
 
-@media screen and (max-width: 576px) {
-    nav {
-        font-size: .5em;
-        height: 25%;
-    }
+/** Mobile Layout ***/
 
-    ul {
-        display: flex;
-        width: 20%;
-    }
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 8dvw;
+  }
+
+  p {
+    width: 70%;
+    font-size: large;
+  }
 }
