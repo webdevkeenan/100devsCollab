@@ -68,7 +68,7 @@ footer {
 hr {
     color: white;
     margin-top: 200px;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
     width: 95%;
     margin: auto;
 }
@@ -359,7 +359,9 @@ a{
 }
 
 .address {
-    width: 1vw;
+    font-size: 1vw;
+    align-self: flex-end;
+    width: 75%;
 }
 
 .logoWrapper {
@@ -375,10 +377,16 @@ a{
     margin-right: 30px;
 }
 
+.headerSectionRight {
+    justify-content: flex-start;
+}
+
 }
 
 /** Landscape Mode fix **/
 
-@media screen and (max-width: 800px) {
-    
+@media screen and (min-width: 800px) {
+    footer {
+        height: 60vh;
+    }
 }
