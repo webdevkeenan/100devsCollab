@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*** Erase Me Later ***/
+
+/* nav, .greetingWrapper, .mainWrapper, .articleWrapper, article, .header, .subWrapper, section {
+    border: 2px solid black;
+} */
+
+/*** Layout ****/
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    height: 5%;
+    background-color: black;
+}
+
+.greetingWrapper {
+    height: 10%;
+}
+
+.mainWrapper {
+    height: 50%;
+    width: 100%;
+}
+
+header, .articleWrapper {
+    height: 100%;
+    width: 50%;
+}
+
+header {
+    float: left;
+}
+.articleWrapper {
+    float: right;
+}
+
+.subWrapper {
+    height: 50%;
+    width: 100%;
+}
+
+article {
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+
+section {
+    width: 33.333%;
+    height: 100%;
+    float: right;
+}
+
+.newsP {
+    height: 50px;
+}
+
+
+/***** Flex Box ****/
+
+.greetingWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 2000px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header, article, section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+
+/*** Content ****/
+
+span {
+    margin-right: 20px;
+}
+
+nav {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+h1, p {
+    margin: 15px;
+}
+
+header, article {
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-position: full;
+    color: white;
+}
+
+article {
+    padding: 25px;
+}
+
+header {
+    background-image: url(./img/taylor-brandon-Y8r0RTNrIWM-unsplash.jpg);
+}
+
+.art2 {
+    background-image: url(./img/pramod-kotipalli-oX_xTrXs7xk-unsplash.jpg);
+}
+
+.art1 {
+    background-image: url(./img/ed-us-K0DMl4NmOPo-unsplash.jpg);
+}
+
+.art3 {
+    background-image: url(./img/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+}
+
+.art4 {
+    background-image: url(./img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    align-self: center;
+}
+
+.logo {
+    width: 40px;
+}
+
+span, .newsP {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+label {
+    align-self: center;
+}
+
+a:hover {
+    color: blue;
+}  
