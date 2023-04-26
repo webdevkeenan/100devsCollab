@@ -15,18 +15,18 @@
 .lowFooter {
     border: 2px solid white;
 }
-
  */
+
 
 /*** Layout ****/
 
 
 nav {
-    height: 15vh;
+    height: 10vh;
     background-color: #66718a;
 }
 header {
-    height: 100vh;
+    height: 110vh;
     background-color: #66718a;
 }
 
@@ -45,11 +45,11 @@ header {
 }
 
 .volunteer {
-    height: 70dvh;
+    height: 80dvh;
 }
 
 footer {
-    height: 30dvh;
+    height: 40dvh;
     background-color: #161c2a;
 }
 
@@ -57,12 +57,14 @@ footer {
     width: 50%;
     height: 60%;
     float: left;
+    padding: 50px;
 }
 
 .headerSectionRight{
     width: 50%;
     height: 60%;
     float: right;
+    padding: 50px;
 }
 
 hr {
@@ -83,7 +85,7 @@ nav {
     position: fixed;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     color: white;
 }
@@ -219,9 +221,6 @@ a.Wrapper{
     font-size: 1.5vw;
 }
 
-nav{
-    display: flex;
-}
 
 .logoWrapper {
     width: 20%;
@@ -239,12 +238,12 @@ nav{
 span {
     font-size: 1.5vw;
     margin: 40px;
-    align-self: space-between;
 }
 
 .bbI {
     font-size: 1vw;
     color: black;
+    font-style: italic;
 }
 
 img { 
@@ -283,7 +282,8 @@ li {
 }
 
 .address {
-    text-align: left;
+    text-align: right;
+    margin: 0;
     width: 200px
 }
 
@@ -291,6 +291,30 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.lowFooter {
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.lvlGMM {
+    text-align: right;
+}
+
+#background-video {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 /*** Media Query ***/
@@ -305,10 +329,6 @@ li {
   p {
     width: 70%;
     font-size: 3vw;
-  }
-
-  nav{
-    align-items: space-around;
   }
 
 
@@ -373,20 +393,44 @@ a{
     margin-right: 0;
 }
 
-.donateButton {
-    margin-right: 30px;
+
+.headerSectionLeft {
+    padding: 10px;
 }
 
 .headerSectionRight {
     justify-content: flex-start;
+    padding: 10px;
+}
+.lowFooter {
+    padding: 15px;
 }
 
 }
 
 /** Landscape Mode fix **/
 
-@media screen and (min-width: 800px) {
-    footer {
-        height: 60vh;
+@media screen and (min-width: 800px) and (max-device-height: 1200px) {
+
+    nav {
+        height: 10dvh;
     }
+
+    .headerH1 {
+        margin-top: 125px;
+    }
+
+    .headerP {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .bbI {
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 400px;
+    }
+   
 }
