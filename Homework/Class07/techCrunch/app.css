@@ -140,3 +140,17 @@ p, li{
     margin-top: 0;
     padding-left: 0;
 }
+
+a:hover {
+    color: blue;
+}
+
+a {
+    color: #8c8c8c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mainLink {
+    color: #24c275;
+}
