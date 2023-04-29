@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*** Erase Me Later ****/
+/* 
+nav, header, footer, .divLeft, .divRight, .divRightWrapper {
+    border: 2px solid black;
+}
+ */
+
+/*** Layout ***/
+
+nav {
+    height: 10vh;
+}
+
+header {
+    height: 70vh;
+}
+
+footer {
+    height: 20vh;
+}
+
+.divLeft, .divRight {
+    width: 50%;
+    height: 100%;
+}
+
+.divLeft {
+    float: left;
+}
+
+.divRight {
+    float: right;
+}
+
+footer {
+    clear: both;
+}
+
+.divRightWrapper {
+    width: 50%;
+    height: 75%;
+}
+
+/*** Flexbox ***/
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+.divLeft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.divRight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.divRightWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/*** Content ***/
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 10px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+.studentHero {
+    height: 80%;
+    width: 80%;
+}
+
+.divRight {
+    text-align: left;
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: blue;
+}
+
+button {
+    background-color: #0069ee;
+    color: white;
+    padding: 8px;
+    border-radius: 10%;
+    cursor: pointer;
+}

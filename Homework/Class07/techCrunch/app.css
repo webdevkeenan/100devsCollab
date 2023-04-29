@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*** Erase Me Later ***/
+
+/* nav, header, aside, section, article, h4, .divLeft, .divRight {
+    border: 2px solid black;
+} 
+ */
+
+/*** Layout ***/
+
+/* nav {
+    height: 2000px;
+    width: 10%;
+    float: left;
+}
+
+header {
+    height: 2000px;
+    width: 40%;
+}
+
+aside {
+    height: 2000px;
+    width: 40%;
+}
+
+.headline {
+    height: 25%;
+}
+
+h4 {
+    height: 40px;
+}
+
+.divLeft, .divRight {
+    height: 500px;
+    width: 40%;
+}
+
+.divLeft {
+    float: left;
+}
+
+.divRight {
+    float: right;
+} */
+
+/*** Flexbox Layout ***/
+
+body {
+    display: flex;
+}
+
+nav, header, aside {
+    margin: 25px;
+}
+
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.divLeft {
+    align-self: flex-start;
+    width: 45%;
+}
+
+.divRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 40%;
+}
+
+h4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+
+/*** Content ****/
+
+.activision {
+    height: 350px;
+    width: 600px;
+}
+
+hr {
+    width: 80%;
+}
+
+h2, h6 {
+    margin-bottom: 10px;
+}
+
+.ads {
+    height: 200px;
+    width:400px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+p, li{
+    padding: 15px;
+    margin: 15px;
+    list-style: none;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.snippet {
+    padding: 0;
+    margin: 0;
+}
+
+.date {
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
