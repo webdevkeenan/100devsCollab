@@ -15,6 +15,7 @@ nav, header, footer, .divLeft, .divRight, .divRightWrapper {
 
 nav {
     height: 10vh;
+    border-bottom: 2px solid #e3e5e6;
 }
 
 header {
@@ -127,6 +128,7 @@ button {
     background-color: #0069ee;
     color: white;
     padding: 8px;
-    border-radius: 10%;
+    width: 80px;
+    border-radius: 8%;
     cursor: pointer;
 }
