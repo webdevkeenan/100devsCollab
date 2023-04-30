@@ -132,3 +132,9 @@ button {
     border-radius: 8%;
     cursor: pointer;
 }
+
+.logo {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 15px;
+}

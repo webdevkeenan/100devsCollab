@@ -155,3 +155,8 @@ a {
 .mainLink {
     color: #24c275;
 }
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
